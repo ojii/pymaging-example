@@ -1,5 +1,10 @@
-Only png, jpg and bmp for now. jpg is borked, I know...
+<p>Only png, jpg and bmp for now. jpg is borked, I know... Submit a file and you'll get a 200x200 png.</p>
 <form method="post" enctype="multipart/form-data">{% csrf_token %}
     {{ form.as_p }}
     <input type="submit" />
 </form>
+<p>
+    Pure-Python (no C libraries) image thumbnailing using <a href="https://github.com/ojii/pymaging">pymaging</a> (with <a href="https://github.com/ojii/pymaging-png">pymaging-png</a>,
+    <a href="https://github.com/ojii/pymaging-bmp">pymaging-bmp</a> and <a href="https://github.com/ojii/pymaging-jpg">pymaging-jpg</a>)
+    off Django {{ django }} on Python {{ python }}.
+</p>
