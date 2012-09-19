@@ -1,4 +1,4 @@
-<p>Only png, jpg and bmp for now. jpg is borked, I know... Submit a file and you'll get a 200x200 png.</p>
+<p>Only png, jpg and bmp for now. jpg is borked, I know... Submit a file and you'll get a 200x200 png. 10MB upload limit</p>
 <form method="post" enctype="multipart/form-data">{% csrf_token %}
     {{ form.as_p }}
     <input type="submit" />
