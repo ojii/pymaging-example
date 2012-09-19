@@ -1,0 +1,5 @@
+https://github.com/django/django/tarball/master/django.tar.gz
+https://github.com/ojii/pymaging/tarball/master/pymaging.tar.gz
+https://github.com/ojii/pymaging-png/tarball/master/pymaging-png.tar.gz
+https://github.com/ojii/pymaging-jpg/tarball/master/pymaging-jpg.tar.gz
+https://github.com/ojii/pymaging-bmp/tarball/master/pymaging-bmp.tar.gz
