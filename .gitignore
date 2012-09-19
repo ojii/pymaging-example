@@ -3,3 +3,4 @@ env
 *.pyc
 !.gitignore
 .*
+server.pid
